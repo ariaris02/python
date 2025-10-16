@@ -1,0 +1,13 @@
+item1 = input("첫 번째 상품을 입력하세요: ")
+price1 = int(input(f"{item1}의 가격을 입력하세요: "))
+
+item2 = input("두 번째 상품을 입력하세요: ")
+price2 = int(input(f"{item2}의 가격을 입력하세요: "))
+
+total = price1 + price2
+
+print("\n --- 영수증 ---")
+print(f"{item1}\t{price1}")
+print(f"{item2}\t{price2}")
+print("---------------")
+print(f"총액: \t{total}")

@@ -1,0 +1,17 @@
+cities = ["Seoul", "Busan", "Incheon", "Daegu"]
+
+cities.remove("Incheon")
+
+print("리스트 길이:", len(cities))
+
+if "Gyeongsan" in cities:
+    print("리스트에 Gyeongsan이 있습니다.")
+else:
+    print("리스트에 Gyeongsan이 없습니다.")
+
+4
+numbers=[0,1,2,3,4,5,6,7,8,9,10]
+
+even_numbers = numbers[2::2]
+
+print(even_numbers)

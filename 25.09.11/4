@@ -1,0 +1,7 @@
+item, price, qua = input("상품명, 가격, 수량을 공백으로 구분하여 입력하세요: ").split()
+
+price = int(price)
+qua = int(qua)
+total = price*qua
+
+print(f"상품명: {item}, 총 가격: {total}")

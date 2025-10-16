@@ -1,0 +1,13 @@
+lst = [1, 2, 3]
+
+lst.extend([3, 4, 5])
+print("lst =", lst)
+
+print("2의 인덱스:", lst.index(2))
+
+lst.remove(1)
+print("lst =", lst)
+
+print("3의 개수:", lst.count(3))
+
+print("최대값 - 최소값:", max(lst) - min(lst))

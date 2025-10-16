@@ -1,0 +1,9 @@
+person = {
+    "first_name": "Sujin",
+    "last_name": "Baek",
+    "age": 21
+    }
+   
+print(person)
+   
+print("이름:", person["last_name"], person["first_name"])

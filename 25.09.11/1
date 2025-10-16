@@ -1,0 +1,6 @@
+name = input("이름을 입력하세요: ")
+birth_year = int(input("출생 연도를 입력하세요:"))
+
+age = 2025 - birth_year+1
+
+print (f"{name}님의 출생 연도는 {birth_year}년이고, 나이는 {age}세입니다.")

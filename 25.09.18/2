@@ -1,0 +1,12 @@
+fruits = ["apple", "banana", "cherry"]
+prices = (1000, 2000, 3000)
+
+fruit_dict = dict(zip(fruits, prices))
+
+print("="*25)
+print("과일가게 가격")
+print("="*25)
+print("banana :", fruit_dict["banana"], "원")
+print("apple  :", fruit_dict["apple"], "원")
+print("cherry :", fruit_dict["cherry"], "원")
+print("="*25)

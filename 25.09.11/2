@@ -1,0 +1,5 @@
+phone = input("연락처를 공백으로 구분하여 입력하세요 (예: 010 1234 5678): ")
+
+part1, part2, part3 = phone.split()
+
+print (f"{part1}-{part2}-{part3}")

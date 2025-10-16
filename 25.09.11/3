@@ -1,0 +1,7 @@
+score = input("국어, 영어, 수학 점수를 공백으로 구분하여 입력하세요: ")
+kor, eng, math = map(int, score.split())
+
+total = kor + eng + math
+average = total/3
+
+print(f"총점: {total}, 평균: {average}")

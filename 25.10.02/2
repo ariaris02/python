@@ -1,0 +1,13 @@
+ID = "python"
+PW = "1234"
+
+user_id = input("아이디를 입력하세요: ").strip()
+user_pw = input("비밀번호를 입력하세요: ").strip()
+
+if user_id == ID:
+    if user_pw == PW:
+        print("로그인 성공")
+    else:
+        print("비밀번호가 틀렸습니다.")
+else:
+    print("존재하지 않는 아이디입니다.")
