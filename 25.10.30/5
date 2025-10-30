@@ -1,0 +1,11 @@
+data = {'a': [1, 2, 3], 'b': [4, 5], 'c': [6, 7, 8, 9], 'd': 10}
+
+result = {}
+
+for key, value in data.items():
+    if isinstance(value, list):  
+        result[key] = len(value)
+    else:  
+        result[key] = value
+
+print(result)

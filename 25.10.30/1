@@ -1,0 +1,10 @@
+people = {
+    "Alice": 25,
+    "Bob": 18,
+    "Charlie": 30,
+    "David": 17
+}
+
+for name, age in people.items():
+    if age >= 20:
+        print(name)

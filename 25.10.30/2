@@ -1,0 +1,16 @@
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+union = set1 | set2
+print("합집합:", union)
+
+intersection = set1 & set2
+print("교집합:", intersection)
+
+diff1 = set1 - set2
+diff2 = set2 - set1
+print("차집합 set1 - set2:", diff1)
+print("차집합 set2 - set1:", diff2)
+
+sym_diff = set1 ^ set2
+print("대칭차집합:", sym_diff)

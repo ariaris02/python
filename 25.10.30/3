@@ -1,0 +1,9 @@
+scores = {
+    "Alice": [90, 80, 95],
+    "Bob": [70, 75, 80],
+    "Charlie": [95, 95, 100]
+}
+
+for name, score_list in scores.items():
+    avg = sum(score_list) / len(score_list)
+    print(f"{name}의 평균 점수: {avg:.2f}")
